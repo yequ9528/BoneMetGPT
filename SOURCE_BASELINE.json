@@ -1,0 +1,16 @@
+{
+  "product_version": "V1.0.0",
+  "snapshot": "2026-11-27 formal V1 after four-stage update, direct query results, and shortened homepage",
+  "formal_release_manifest_sha256": "0EBC5326EA054C80D8F46DA4E36C969B103CFB00BF289F47A56A135E9BD54ED9",
+  "formal_source_manifest_sha256": "8DE268EB5FC7F218C661BC97A3D349D39B64D33253738D65D4B516346F8BE346",
+  "unchanged_baseline_files": 156,
+  "adapted_baseline_files": 20,
+  "adaptations": {
+    "conformal_module_comments": "Removed local example path and contact addresses. Algorithm statements were preserved.",
+    "avatar_assets": "Removed embedded text and metadata. Image data was preserved.",
+    "test_fixtures": "Used synthetic path and credential fixtures, updated explicit explanation tests, and excluded acceptance fixtures tied to private historical jobs.",
+    "release_path_scan": "Removed a workstation-specific interpreter path exception.",
+    "public_cleanup": "Removed duplicate Viewer entry files, local developer execution examples, and an obsolete historical execution-context test. Retained the active design kernels and product validation.",
+    "env_scope": "Read the application directory .env and the process environment only."
+  }
+}

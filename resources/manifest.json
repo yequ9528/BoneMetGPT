@@ -1,0 +1,63 @@
+{
+  "product_version": "V1.0.0",
+  "resource_profile": "formal_v1",
+  "access_status": "PUBLIC_DOWNLOAD_AND_TERMS_UNCONFIRMED",
+  "files": [
+    {
+      "name": "formal_csv",
+      "path": "formal_data/formal_150w.csv",
+      "size_bytes": 2750734702,
+      "sha256": "C5F13D1532FD94AACB8AF215F8653BBAD341AD719AEA4811282109B8648173DC",
+      "loader_policy": "READ_ONLY_BYTES",
+      "download_url": null
+    },
+    {
+      "name": "inverse_model",
+      "path": "models/inverse_model.pt",
+      "size_bytes": 5488781,
+      "sha256": "20E375279AFB813CC43A74EB275D32236C24B809EA90729FE0659771E30B2C7C",
+      "loader_policy": "TRUSTED_TORCH_PICKLE_AFTER_SHA256",
+      "download_url": null
+    },
+    {
+      "name": "forward_model",
+      "path": "models/forward_model.pt",
+      "size_bytes": 1741285,
+      "sha256": "AB2EEBDFCC6669C04E04EF2EC38F8613A4FBEDDE14C4879BD74B6DEE2DA8197E",
+      "loader_policy": "TRUSTED_TORCH_PICKLE_AFTER_SHA256",
+      "download_url": null
+    },
+    {
+      "name": "scaler_x",
+      "path": "scalers/scaler_X.pt",
+      "size_bytes": 1837,
+      "sha256": "E7CE01CB9AE2AD4C45415E681B912DF400F8C439835DC2D87FC30ECBF9E4DECE",
+      "loader_policy": "TORCH_WEIGHTS_ONLY_TRUE",
+      "download_url": null
+    },
+    {
+      "name": "scaler_y",
+      "path": "scalers/scaler_Y.pt",
+      "size_bytes": 1837,
+      "sha256": "11BDD5087CFD88533800B9BAE5E834A7E385E14A620774B81AE5C9F77A6E9349",
+      "loader_policy": "TORCH_WEIGHTS_ONLY_TRUE",
+      "download_url": null
+    },
+    {
+      "name": "formal_query_sqlite",
+      "path": "projections/formal_150w_query_v1.sqlite",
+      "size_bytes": 187719680,
+      "sha256": "F4BD9A524E5328F7A62533F02F521881F53213F4E7D67F21C2F5C371D5141EB6",
+      "loader_policy": "READ_ONLY_BYTES",
+      "download_url": null
+    },
+    {
+      "name": "formal_query_manifest",
+      "path": "projections/formal_150w_query_v1.manifest.json",
+      "size_bytes": 1568,
+      "sha256": "8B361B2FD7085A9889ADC5AB43B4704BC2862FD3283F1FBB05BDDF40CCCAA05B",
+      "loader_policy": "JSON_METADATA",
+      "download_url": null
+    }
+  ]
+}

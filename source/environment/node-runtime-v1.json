@@ -1,0 +1,11 @@
+{
+  "architecture": "x64",
+  "node_version": "18.19.0",
+  "npm_version": "10.2.3",
+  "package_lock": {
+    "sha256": null,
+    "size_bytes": null
+  },
+  "platform": "win32",
+  "schema_version": "latticegpt_node_runtime_v1"
+}

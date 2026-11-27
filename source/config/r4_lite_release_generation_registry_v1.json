@@ -1,0 +1,20 @@
+{
+  "active_binding_relative": "release_metadata/r4_lite_single_reference_workstation_v62/active_release_binding_v1.json",
+  "active_binding_schema_version": "latticegpt.r4_lite_active_release_binding.v1",
+  "active_status": "PASS_ACTIVE_R4_LITE_SINGLE_REFERENCE_WORKSTATION",
+  "config_name": "latticegpt_v1.paths.r4_lite_single_reference_workstation_v63.json",
+  "final_active_identity_relative": "release_metadata/r4_lite_single_reference_workstation_v62/final_active_identity.json",
+  "generation": "r4_lite_single_reference_workstation_v62",
+  "generation_contract_relative": "release_metadata/r4_lite_single_reference_workstation_v62/release_generation_contract_v1.json",
+  "generation_contract_schema_version": "latticegpt.r4_lite_release_generation_contract.v1",
+  "metadata_prefix": "release_metadata/r4_lite_single_reference_workstation_v62",
+  "r3_generation": "r3_gate7_visual_evidence_binding_fix_v1",
+  "r3_registry_snapshot_sha256": "0E1E8D1D14FE01499C6C73826051F973936E840F03F279448FEAF90B85C73ED5",
+  "r3_source_count": 167,
+  "r3_source_manifest_relative": "release/v1/r3_gate7_visual_evidence_binding_fix_v1/source_manifest_v1.json",
+  "r3_source_manifest_sha256": "885EE7EAD55BF70AC8F83A30CB4D77AD505C00C39182ABDE72C65458DAF6780C",
+  "r4_delta_count": 108,
+  "schema_version": "latticegpt.r4_lite_release_generation_registry.v1",
+  "source_count": 275,
+  "source_release_prefix": "release/v1/r4_lite_single_reference_workstation_v62"
+}
